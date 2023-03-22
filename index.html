@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>Trello-Like</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="board-layout">
+      <div class="left">
+        <div class="board-text">Trello Board</div>
+      </div>
+
+      <div id="myDIV" class="header">
+        <input type="text" id="myInput" placeholder="Title...">
+        <span onclick="newElement()" class="addBtn">Add</span>
+      </div>
+
+      <div id="boardlists1" class="board-lists">
+      </div>
+    </div>
+    <script src="dragdropswap.js"></script>
+  </body>
+</html>
